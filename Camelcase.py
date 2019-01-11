@@ -7,4 +7,4 @@ for i in range(len(str1)):
         str2 +=str1[i].upper()
     else:
         str2 +=str1[i]
-print(str2)'
+print(str2)
