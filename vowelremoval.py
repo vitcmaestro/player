@@ -1,3 +1,4 @@
+n = int(input(""))
 s =input("")
 s2 = ""
 l =['a','e','i','o','u','A','E','I','O','U']
