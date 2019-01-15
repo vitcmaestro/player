@@ -1,4 +1,5 @@
 n,k = map(int,input().split())
+space = input()
 nlis = list(map(int,input().split()))
 klis = list(map(int,input().split()))
 c = 0
