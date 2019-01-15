@@ -9,4 +9,4 @@ for i in klis:
         print(max(nlis),end = "")
         c+=1
     else:
-        print(" ",max(nlis),end = "")
+        print("",max(nlis),end = "")
