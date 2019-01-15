@@ -9,6 +9,11 @@ def isprime(n):
                 return False
         else:
             return True
+c=0
 for i in range(2,num+1):
     if(num%i == 0 and isprime(i)):
-        print(i)
+        if(c == 0):
+            c+=1
+            print(i,end="")
+        else:
+            print(" ",i,end = " ")
