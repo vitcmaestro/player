@@ -16,4 +16,4 @@ for i in range(2,num+1):
             c+=1
             print(i,end="")
         else:
-            print(" ",i,end = " ")
+            print(" ",i,end = "")
