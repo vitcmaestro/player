@@ -1,5 +1,5 @@
 temp = input("")
-s = temp.lower()
+s = temp.lower().strip()
 s1 = []
 for i in s:
     if i not in s1:
