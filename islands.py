@@ -26,6 +26,7 @@ for i in range(n):
 c=0
 for i in range(n):
     for j in range(n):
-        if(isisland(i,j)):
-            c+=1
+        if(lis[i][j] == 1):
+            if(isisland(i,j)):
+                c+=1
 print(c)
