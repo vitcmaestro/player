@@ -1,10 +1,12 @@
 import math
 n,k = map(int,input().split())
-num = n
-while(num>=k):
-    if(num == k):
+num = k
+i == 0
+while(num<=n):
+    if(num == n):
         print("yes")
         break
-    num = int(math.sqrt(num))
+    num = k**i
+    i+=1
 else:
     print("no")
