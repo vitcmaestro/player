@@ -3,7 +3,7 @@ i = 1
 n =2
 while(n<=num):
     n = 2**i
-    if(n == num):
+    if(n == num || num == 1):
         print("yes")
         break
     i+=1
