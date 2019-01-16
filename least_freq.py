@@ -9,8 +9,11 @@ count =[]
 for i in range(len(s1)):
     count.append(s.count(s1[i]))
 key = min(count)
-for i in range(len(s1)):
+''''for i in range(len(s1)):
     if s1[i] not in temp and s1[i].upper() in temp:
+        s1[i] = s1[i].upper()'''
+for i in range(len(s1)):
+    if s1[i] not in temp and s1[i].upper() in temp and s[i] == 'w':
         s1[i] = s1[i].upper()
 c= 0
 for i in range(len(count)):
