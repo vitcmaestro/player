@@ -1,9 +1,9 @@
 num = int(input(""))
-i = 1
+i = 0
 n =2
 while(n<=num):
     n = 2**i
-    if(n == num || num == 1):
+    if(n == num ):
         print("yes")
         break
     i+=1
